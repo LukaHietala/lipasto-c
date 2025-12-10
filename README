@@ -1,0 +1,3 @@
+# Lipasto
+
+Web interface for git repository tracking. Written in C and Go, using Libgit2 v1.9 and Gin.
