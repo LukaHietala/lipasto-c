@@ -1,3 +1,7 @@
 # Lipasto
 
 Web interface for git repository tracking. Written in C and Go, using Libgit2 v1.9 and Chi.
+
+## Formatting
+
+All the formatting rules are in `.clang-format` for C code. For Go code use `gofmt`.

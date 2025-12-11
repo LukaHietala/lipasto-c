@@ -1,0 +1,17 @@
+[*]
+charset = utf-8
+insert_final_newline = true
+
+# The settings for C (*.c and *.h) files are mirrored in .clang-format.  Keep
+# them in sync.
+[{*.{c,h,sh,bash,perl,pl,pm,txt,adoc},config.mak.*,Makefile}]
+indent_style = tab
+tab_width = 8
+
+# https://go.dev/doc/effective_go#formatting
+[*.go]
+indent_style = tab
+indent_size = 4
+
+#[COMMIT_EDITMSG]
+#max_line_length = 72
